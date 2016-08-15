@@ -1,3 +1,17 @@
+* 0.8.0
+  * dropped support for Node v0.10, v0.12 and v4
+  * API change
+  * linkObj renamed to Link, and schema changed
+  * options changed: `acceptedSchemes`, `excludedSchemes`
+  * options renamed: `cacheExpiryTime`->`cacheMaxAge`
+  * [WHATWG URL specification](https://url.spec.whatwg.org)-compliance
+  * added support for HTTP auth
+  * added support for HTTP proxies
+  * added support for file:// protocol
+  * added missing tags/attributes
+  * test suite improvements
+  * bug fixes
+* 0.7.4 bug fix
 * 0.7.3 updated tests and dependencies
 * 0.7.2 added `options.retry405Head`
 * 0.7.1 bug fix
